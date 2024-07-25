@@ -1,0 +1,232 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f0f0f0;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    padding: 0.5rem 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header */
+header {
+    background: #222;
+    color: #fff;
+    padding: 20px 0;
+    border-bottom: 4px solid #e94e77;
+}
+
+header h1 {
+    float: left;
+    margin-top: 0;
+}
+
+nav {
+    float: right;
+    margin-top: 0;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover {
+    background: #e94e77;
+}
+
+/* Main Sections */
+section {
+    padding: 40px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+#home {
+    background: #333;
+    color: #fff;
+    text-align: center;
+}
+
+#home img {
+    max-width: 100%;
+    height: auto;
+}
+
+#about {
+    background: #fff;
+    color: #333;
+}
+
+#features {
+    background: #e2e2e2;
+}
+
+.feature {
+    margin-bottom: 20px;
+}
+
+#trailers {
+    background: #fff;
+    text-align: center;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f0f0f0;
+    color: #333;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    padding: 0.5rem 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header */
+header {
+    background: #222;
+    color: #fff;
+    padding: 20px 0;
+    border-bottom: 4px solid #e94e77;
+}
+
+header h1 {
+    float: left;
+    margin-top: 0;
+}
+
+nav {
+    float: right;
+    margin-top: 0;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover {
+    background: #e94e77;
+}
+
+/* Main Sections */
+section {
+    padding: 60px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+#home {
+    background: #333;
+    color: #fff;
+    text-align: center;
+}
+
+#home img {
+    max-width: 100%;
+    height: auto;
+}
+
+#about, #features, #story, #characters, #trailers, #news, #contact {
+    background: #fff;
+}
+
+#about {
+    background: #f4f4f4;
+}
+
+#features {
+    background: #e2e2e2;
+}
+
+.feature, .character {
+    margin-bottom: 30px
+}
+/* Existing Styles */
+
+/* Weapons and Descendants Sections */
+#weapons, #descendants {
+    background: #fff;
+    padding: 40px 0;
+}
+
+.weapon, .descendant {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.weapon img, .descendant img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+
+.weapon h3, .descendant h3 {
+    margin: 10px 0;
+}
+
+.weapon p, .descendant p {
+    color: #666;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .weapon, .descendant {
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+}
